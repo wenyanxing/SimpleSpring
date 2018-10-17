@@ -59,5 +59,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="commons-lang3-3.8.1" level="project" />
+    <orderEntry type="library" name="poi-4.0.0" level="project" />
+    <orderEntry type="library" name="poi-ooxml-4.0.0" level="project" />
   </component>
 </module>

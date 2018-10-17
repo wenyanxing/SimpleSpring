@@ -2,7 +2,7 @@ package main.java.com.systop.soundsystem;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("lonelyHeartsClub")
 public class SgtPeppers implements CompactDisc {
 
     private String title = "Sgt. papper's Lonely Hearts Club Band";

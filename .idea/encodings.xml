@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib/commons-lang3-3.8.1.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib/poi-4.0.0.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib/poi-ooxml-4.0.0.jar" charset="UTF-8" />

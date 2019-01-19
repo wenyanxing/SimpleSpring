@@ -10,25 +10,35 @@
     <version>1.0-SNAPSHOT</version>
     <name>SimpleSpring</name>
     <url>http://maven.apache.org</url>
-    
+
     <repositories>
         <repository>
-            <id>nexus</id>
-            <name>Team Nexus Repository</name>
-            <url>http://110.249.174.58:8081/nexus/content/groups/public/</url>
+            <id>maven-net-cn</id>
+            <name>Maven China Mirror</name>
+            <url>http://maven.net.cn/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
         </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
-            <id>nexus</id>
-            <name>Team Nexus Repository</name>
-            <url>http://110.249.174.58:8081/nexus/content/groups/public/</url>
+            <id>maven-net-cn</id>
+            <name>Maven China Mirror</name>
+            <url>http://maven.net.cn/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-    
+
+
     <properties>
         <shiroVersion>1.4.0</shiroVersion>
     </properties>
@@ -59,6 +69,15 @@
             <artifactId>shiro-spring</artifactId>
             <version>${shiroVersion}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.3.1</version>
+            <scope>test</scope>
+        </dependency>
+
+
     </dependencies>
     <build>
         <finalName>SimpleSpring</finalName>
